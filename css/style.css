@@ -131,6 +131,26 @@ main section div p{
     font-size: 1.2em;
 }
 
+.last-section{
+    text-align: center;
+}
+
+.last-section h2{
+    font-size: 2.8em;
+}
+
+.last-section img{
+    width: 100%;
+}
+
+.stars-title{
+    padding: 60px;
+    display: inline-block;
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /* footer */
 
 footer{
@@ -144,7 +164,7 @@ footer > div > div:first-child{
 
 .foot-top{
     align-items: flex-start;
-    padding-top: 50px;
+    padding: 50px 0 ;
 }
 
 .foot-top div{
@@ -167,7 +187,7 @@ aside i{
 }
 
 .foot-top ul li{
-    padding: 15px;
+    padding: 5px;
 }
 
 .foot-bot{
@@ -175,7 +195,8 @@ aside i{
     padding-bottom: 100px;
 }
 
-.foot-bot .button{
+.accessory-btn{
     background-color: var(--color-accesory);
     color: #ffffff;
+    display: inline-block;
 }
