@@ -1,0 +1,21 @@
+/* general */
+
+:root {
+    --color-primary: #23272a;
+    --color-secondary: #ffffff;
+    --color-section-bg: #f6f6f6;
+    --color-header-bg: #255ee9;
+    --color-accesory: #758bdb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+/* main */
+
+/* footer */
