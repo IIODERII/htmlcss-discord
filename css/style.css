@@ -14,7 +14,42 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--color-secondary);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 6px 10px;
+}
+
+/* flex utility */
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
 /* header */
+
+header{
+    background-color: var(--color-header-bg);
+}
 
 /* main */
 
