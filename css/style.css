@@ -63,6 +63,11 @@ a{
 
 }
 
+.f-reverse{
+    flex-direction: row-reverse;  
+
+}
+
 /* header */
 
 header{
@@ -107,6 +112,23 @@ p + a{
 
 .even{
     background-color: var(--color-section-bg);
+}
+
+main section{
+    padding: 200px;
+}
+
+main section .d-flex{
+    flex-wrap: nowrap;
+}
+
+main section div h2{
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+main section div p{
+    font-size: 1.2em;
 }
 
 /* footer */
