@@ -91,21 +91,21 @@ a{
 
 .d-flex{
     display: flex;
-    flex-flow: row wrap;    
+    flex-flow: row wrap;
 }
 
 .f-between{
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
 .f-center{
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
     align-content: center;
 }
 
 .f-reverse{
-    flex-direction: row-reverse;  
+    flex-direction: row-reverse;
 }
 
 .f-center-between{
@@ -384,6 +384,8 @@ select{
 
 /* inizio download page */
 
+/* header download */
+
 #download header{
     background-color: var(--color-primary);
 }
@@ -414,6 +416,46 @@ select{
 
 #download header .accessory-btn{
     margin-right: 20px;
+}
+
+/* main download */
+
+#download main{
+    max-height: 2000px;
+}
+
+#download main a{
+    display: inline-block;
+}
+
+#download .box{
+    width: 50%;
+    max-height: 600px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#download .inside-box{
+    background-color: var(--color-section-bg);
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+#download main .container{
+    padding: 120px 0;
+    max-height: 2000px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#download main .button{
+    padding: 10px 30px;
+    margin-bottom: 70px;
+}
+
+#download .container .box:nth-child(3) .inside-box{
+    text-align: start;
 }
 
 /* fine download page */
