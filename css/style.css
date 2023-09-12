@@ -5,7 +5,10 @@
     --color-secondary: #ffffff;
     --color-section-bg: #f6f6f6;
     --color-header-bg: #255ee9;
-    --color-accesory: #758bdb;
+    --color-accesory: #5865f2;
+    --color-dark-button-hover: #313338;
+    --color-accessory-button-hover: #7983f5;
+
 }
 
 *{
@@ -37,15 +40,49 @@ a{
     padding: 6px 10px;
 }
 
+.accessory-color{
+    color: var(--color-accesory);
+}
+
+/* buttons */
+
 .button{
-    background-color: #ffffff;
-    color: #000000;
     border-radius: 20px;
     padding: 10px 15px;
 }
 
-.accessory-color{
+.white-btn{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.black-btn{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: var(--color-primary);
+    color: #ffffff;
+}
+
+.accessory-btn{
+    background-color: var(--color-accesory);
+    color: #ffffff;
+}
+
+.button:hover{
+    box-shadow: 1px 3px 10px #5e5e5e;
+    text-decoration: none
+}
+
+.white-btn:hover{
     color: var(--color-accesory);
+}
+
+.black-btn:hover{
+    background-color: var(--color-dark-button-hover);
+}
+
+.accessory-btn:hover{
+    background-color: var(--color-accessory-button-hover);
 }
 
 /* flex utility */
@@ -104,13 +141,6 @@ h1{
 
 p + a{
     margin-top: 20px;
-}
-
-.black-btn{
-    margin-top: 20px;
-    margin-left: 10px;
-    background-color: var(--color-primary);
-    color: #ffffff;
 }
 
 a:hover{
@@ -225,11 +255,6 @@ aside i{
     padding-bottom: 100px;
 }
 
-.accessory-btn{
-    background-color: var(--color-accesory);
-    color: #ffffff;
-}
-
 h5{
     font-size: 1em;
     padding-left: 9px;
@@ -241,7 +266,11 @@ aside a{
     padding: 10px 0;
 }
 
-
+select{
+    background-color: var(--color-primary);
+    color: #ffffff;
+    border: transparent;
+}
 
 /* fine main page */
 
