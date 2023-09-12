@@ -65,7 +65,6 @@ a{
 
 .f-reverse{
     flex-direction: row-reverse;  
-
 }
 
 /* header */
@@ -108,6 +107,10 @@ p + a{
     color: #ffffff;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 /* main */
 
 .even{
@@ -118,8 +121,9 @@ main section{
     padding: 200px;
 }
 
-main section .d-flex{
-    flex-wrap: nowrap;
+.main-width{
+    min-width: 500px;
+    width: 50%;
 }
 
 main section div h2{
@@ -166,13 +170,9 @@ footer > div > div:first-child{
     border-bottom: 1px solid var(--color-accesory);
 }
 
-.foot-top{
+.f-start{
     align-items: flex-start;
     padding: 50px 0 ;
-}
-
-.foot-top div{
-    width: 25%;
 }
 
 h3{
