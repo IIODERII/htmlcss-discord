@@ -151,6 +151,10 @@ main section div p{
     background-size: contain;
 }
 
+.last-section .container{
+    flex-flow: column;
+}
+
 /* footer */
 
 footer{
@@ -198,5 +202,4 @@ aside i{
 .accessory-btn{
     background-color: var(--color-accesory);
     color: #ffffff;
-    display: inline-block;
 }
