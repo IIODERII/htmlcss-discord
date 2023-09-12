@@ -447,6 +447,7 @@ select{
     max-height: 2000px;
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
 }
 
 #download main .button{
