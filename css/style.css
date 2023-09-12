@@ -67,6 +67,10 @@ a{
     flex-direction: row-reverse;  
 }
 
+p{
+    line-height: 1.8em;
+}
+
 /* header */
 
 header{
@@ -166,8 +170,12 @@ footer{
     color: #ffffff;
 }
 
-footer > div > div:first-child{
+.foot-top{
     border-bottom: 1px solid var(--color-accesory);
+}
+
+.foot-top div:first-child{
+    width: 25%;
 }
 
 .f-start{
