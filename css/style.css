@@ -280,20 +280,23 @@ select{
 
 /* inizio login page */
 
-#login *{
-    margin: 0;
+#login a{
     padding: 0;
 }
+
 #login{
     background-image: url("../img/login/bg.png");
     background-size: cover;
     height: 100vh;
     color: var(--color-text-login);
+    font-size: 16px;
 }
 
 #login .container{
     max-width: 800px;
     background-color: var(--color-bg-login);
+    padding: 30px;
+    border-radius: 5px;
 }
 
 #login .form-container{
@@ -308,10 +311,67 @@ select{
 #login .right-form{
     width: 40%;
     text-align: center;
+    margin-left: 70px;
 }
 
 #login .title-container{
     text-align: center;
+    padding-bottom: 20px;
+}
+
+#login h1{
+    font-size: 1.3em;
+    padding: 20px 0 10px 0;
+}
+
+#login label{
+    font-size: 0.7em;
+}
+
+#login label::after{
+    content: " *";
+    color: red;
+}
+
+#login #email{
+    margin: 5px 0 20px 0;
+}
+
+#login #password{
+    margin: 5px 0 5px 0;
+}
+
+#login #submit{
+    margin: 20px 0 5px 0;
+}
+
+#login input{
+    color: #ffffff;
+    width: 100%;
+    min-height: 3em;
+    border: transparent;
+    border-radius: 2px;
+}
+
+#login #email, #password{
+    background-color: var(--color-primary);
+    color: #ffffff;
+    width: 100%;
+    min-height: 3em;
+    border: transparent;
+}
+
+.blue-link{
+    display: inline-block;
+    color: var(--color-accesory);
+}
+
+#login .right-form img{
+    padding-bottom: 40px;
+}
+
+#login h2{
+    padding-bottom: 10px;
 }
 
 /* fine login page */
