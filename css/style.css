@@ -71,6 +71,8 @@ p{
     line-height: 1.8em;
 }
 
+/* inizio main page */
+
 /* header */
 
 header{
@@ -122,12 +124,19 @@ a:hover{
 }
 
 main section{
-    padding: 200px;
+    padding: 100px;
 }
 
-.main-width{
-    min-width: 500px;
-    width: 50%;
+main img{
+    width: 100%;
+}
+
+.text-width{
+    width: 40%;
+}
+
+.img-width{
+    width: 60%;
 }
 
 main section div h2{
@@ -147,10 +156,6 @@ main section div p{
     font-size: 2.8em;
 }
 
-.last-section img{
-    width: 100%;
-}
-
 .stars-title{
     padding: 60px;
     display: inline-block;
@@ -163,6 +168,18 @@ main section div p{
     flex-flow: column;
 }
 
+.wave{
+    opacity: 0.03;
+}
+
+.wave img{
+    display: block;
+}
+
+.reverse-wave{
+    transform: rotate(180deg);
+}
+
 /* footer */
 
 footer{
@@ -172,6 +189,7 @@ footer{
 
 .foot-top{
     border-bottom: 1px solid var(--color-accesory);
+    justify-content: space-around;
 }
 
 .foot-top div:first-child{
@@ -211,3 +229,19 @@ aside i{
     background-color: var(--color-accesory);
     color: #ffffff;
 }
+
+h5{
+    font-size: 1em;
+    padding-left: 9px;
+    font-weight: 400;
+}
+
+aside a{
+    display: inline-block;
+    padding: 10px 0;
+}
+
+
+
+/* fine main page */
+
