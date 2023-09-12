@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Discord - Login</title>
+    </head>
+<body id="login" class="d-flex f-center">
+    <div class="container">
+        <!-- tasto indietro -->
+        <div>
+            <a href="../index.html"><i class="fa-solid fa-chevron-left"></i> Indietro</a>
+        </div>
+        <!-- sezione per l'accesso -->
+        <div class="d-flex form-container">            
+            <!-- parte sinistra -->
+            <div class="left-form">
+                <div class="title-container">
+                    <h1>Eccoti qui!</h1>
+                    <span>Siamo così felici di rivederti</span>
+                </div>
+                <!-- form -->
+                <div>
+                    <label for="email">E-MAIL</label><br>
+                    <input type="email" id="email" name="fname"><br>
+                    <label for="password">PASSWORD</label><br>
+                    <input type="password" id="password" name="lname"><br>
+                    <span><a href="">Hai dimenticato la tua password?</a></span><br>
+                    <input type="submit" value="Accedi"><br>
+                    <span>Ti serve un account?<a href="">Registrati</a></span>
+                </div>
+            </div>
+            <!-- parte destra -->
+            <div class="right-form">
+                <img src="../img/login/qr-code.png" alt="qr code">
+                <div>
+                    <h2>Accedi con codice QR</h2>
+                    <span>Scansionalo con l'<strong>app mobile di Discord</strong> per accedere istantaneamente.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

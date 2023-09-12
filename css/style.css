@@ -8,6 +8,8 @@
     --color-accesory: #5865f2;
     --color-dark-button-hover: #313338;
     --color-accessory-button-hover: #7983f5;
+    --color-bg-login: #313338;
+    --color-text-login: #f2f3f5;
 
 }
 
@@ -89,15 +91,17 @@ a{
 
 .d-flex{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
+    flex-flow: row wrap;    
+}
+
+.f-between{
+    justify-content: space-between;   
 }
 
 .f-center{
     justify-content: center;  
-
+    align-items: center;
+    align-content: center;
 }
 
 .f-reverse{
@@ -274,3 +278,40 @@ select{
 
 /* fine main page */
 
+/* inizio login page */
+
+#login *{
+    margin: 0;
+    padding: 0;
+}
+#login{
+    background-image: url("../img/login/bg.png");
+    background-size: cover;
+    height: 100vh;
+    color: var(--color-text-login);
+}
+
+#login .container{
+    max-width: 800px;
+    background-color: var(--color-bg-login);
+}
+
+#login .form-container{
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+#login .left-form{
+    width: 60%;
+}
+
+#login .right-form{
+    width: 40%;
+    text-align: center;
+}
+
+#login .title-container{
+    text-align: center;
+}
+
+/* fine login page */
